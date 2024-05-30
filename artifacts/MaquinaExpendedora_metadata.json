@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "userAddress",
+						"type": "address"
+					}
+				],
+				"name": "getCupcakeBalanceFor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "userAddress",
+						"type": "address"
+					}
+				],
+				"name": "giveCupcakeTo",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MaquinaExpendedora.sol": "MaquinaExpendedora"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MaquinaExpendedora.sol": {
+			"keccak256": "0x1852c7b8648e8ff6e524520cd2cd354bd4da7ab126ad82ee242ad16bbbfbeecc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9fb9f87d021a7509e5b3151dccaae8f6f76a482f75974a46df10b59a1a4a1bfc",
+				"dweb:/ipfs/QmaEAN4u9AusnVUwDq7reMktryAjeZ6ppcJMw7JtXgKnSZ"
+			]
+		}
+	},
+	"version": 1
+}
